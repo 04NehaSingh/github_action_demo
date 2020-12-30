@@ -1,4 +1,4 @@
-https://github.com/04NehaSingh/github_action_demo/workflows/simple/badge.svg
+![](https://github.com/04NehaSingh/github_action_demo/workflows/simple/badge.svg)
 name: Shell Commands 
 
 on: [push]
