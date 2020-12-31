@@ -1,5 +1,3 @@
-![](https://github.com/actions/github_action_demo/workflows/simple/badge.svg)
-
 name: Shell Commands 
 
 on: [push]
