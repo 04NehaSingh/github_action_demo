@@ -14,3 +14,7 @@ DETAILS: https://docs.github.com/en/free-pro-team@latest/actions/managing-workfl
 
 Enabling runner diagnostic logging: ACTIONS_RUNNER_DEBUG = true
 Enabling step debug logging: ACTIONS_STEP_DEBUG = true
+
+# Using actions 
+syntax: actions/<action-name>@version/commit-ID
+commit-ID: will be the safest way as it will never change
