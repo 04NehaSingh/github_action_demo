@@ -12,10 +12,4 @@ jobs:
         run: |
            node -v 
            npm -v
-      
-      - name: python Commands
-        run: |
-          import pltform
-          print(platform.processor())
-        shell: python
         
