@@ -1,17 +1,10 @@
 name: Actions Worflow
 
-on:
-  push:
-    branches:
-      - main
-      - "feature/*" # matches feature/featA, feature/featB, doesn't match feature/feat/a
-      - "feature/**"
-      - "!feature/featC"
-    tags:
-      - v1.*
-    paths:
-      - "**.js"
-      - "!filename.js"
+on: [push]
+
+    # paths:
+    #   - "**.js"
+    #   - "!filename.js"
     # paths-ignore:
     #   - 'docs/**'
     # repository_dispatch:
