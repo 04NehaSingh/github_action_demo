@@ -5,7 +5,10 @@
 # Running a shell script and multiline shell script
 
 # Adding badge 
-https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/adding-a-workflow-status-badge 
+Add the badge to the readme file 
+syntax: https://github.com/<OWNER>/<REPOSITORY>/workflows/<WORKFLOW_NAME_IN_WORKFLOWFILE>/badge.svg 
+
+DETAILS: https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/adding-a-workflow-status-badge 
 
 # Enabling debug logging ( in repo secret )
 
