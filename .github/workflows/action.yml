@@ -3,7 +3,7 @@ name: Actions Worflow
 on:
   push:
     branches:
-      - master
+      - main
       - "feature/*" # matches feature/featA, feature/featB, doesn't match feature/feat/a
       - "feature/**"
       - "!feature/featC"
@@ -34,4 +34,3 @@ jobs:
           who-to-greet: John
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"
-        
