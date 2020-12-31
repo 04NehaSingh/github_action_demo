@@ -1,6 +1,6 @@
 # github_action_demo
 
-![](https://github.com/04NehaSingh/github_action_demo/workflows/simple/badge.svg) 
+![](https://github.com/04NehaSingh/github_action_demo/workflows/Shell%20Commands/badge.svg) 
 
 # Running a shell script and multiline shell script
 
