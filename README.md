@@ -1,5 +1,7 @@
 # github_action_demo
 
+![](https://github.com/04NehaSingh/github_action_demo/workflows/simple/badge.svg) 
+
 # Running a shell script and multiline shell script
 
 # Adding badge 
