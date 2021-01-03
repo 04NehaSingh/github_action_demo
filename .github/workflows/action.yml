@@ -2,6 +2,8 @@ name: Actions Worflow
 
 on: 
   push:
+    branches:
+      - main
   pull_request:
     -type: [closed, assigned, opened, reopened]
 
