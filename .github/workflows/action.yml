@@ -1,6 +1,9 @@
 name: Actions Worflow
 
-on: [push]
+on: 
+  push:
+  pull_request:
+    -type: [closed, assigned, opened, reopened]
 
     # paths:
     #   - "**.js"
